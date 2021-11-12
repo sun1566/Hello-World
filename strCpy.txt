@@ -1,4 +1,4 @@
-char * strcpy(char * strDest,const char * strSrc)
+﻿char * strcpy(char * strDest,const char * strSrc)
 {
         if ((strDest==NULL)||(strSrc==NULL)) //[1]
                 throw "Invalid argument(s)"; //[2]
@@ -7,4 +7,4 @@ char * strcpy(char * strDest,const char * strSrc)
         return strDestCopy; //[5]
 }
 
-/*** GitHubDesktop strCpy***/
+/***远程修改strCpy***/
