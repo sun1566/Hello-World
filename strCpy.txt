@@ -1,15 +1,10 @@
-        char * strcpy(char * strDest,const char * strSrc)
- 
-        {
- 
-                if ((strDest==NULL)||(strSrc==NULL)) //[1]
- 
-                        throw "Invalid argument(s)"; //[2]
- 
-                char * strDestCopy=strDest;  //[3]
- 
-                while ((*strDest++=*strSrc++)!='\0'); //[4]
- 
-                return strDestCopy; //[5]
- 
-        }
+char * strcpy(char * strDest,const char * strSrc)
+{
+        if ((strDest==NULL)||(strSrc==NULL)) //[1]
+                throw "Invalid argument(s)"; //[2]
+        char * strDestCopy=strDest;  //[3]
+        while ((*strDest++=*strSrc++)!='\0'); //[4]
+        return strDestCopy; //[5]
+}
+
+/*** GitHubDesktop strCpy***/
