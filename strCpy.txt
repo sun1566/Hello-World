@@ -7,4 +7,6 @@
         return strDestCopy; //[5]
 }
 
+printf("Hello,World！");
+
 /***远程修改strCpy***/
